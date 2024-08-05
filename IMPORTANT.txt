@@ -1,0 +1,32 @@
+batre 9 volt
+- ke 2 Arduino --- OKE
+- ke 3 servo + pca9685 --- OKE
+- kunci kontak -- OKE
+- lampu LED -- OKE
+
+
+
+
+
+
+
+
+* Ketika kunci kontak ON, kelopak mata terbuka diikuti dengan lampu LED merah hidup (delay beberapa detik untuk lampu LED merah
+kemudian matikan) setelahnya lampu LED putih AKTIF bersamaan dengan mata bergerak. 
+
+* Ketika kunci kontak OFF, delay beberapa detik kemudian lampu LED merah AKTIF, lalu delay beberapa detik lagi, LED OFF.
+namun sebelum itu,  "terdapat hidden case" -> mata kiri ke kiri, mata kanan ke kanan, di ikuti dengan lampu LED merah & putih bergerak secara acak selama beberapa detik, kemudian OFF, lalu mata ke arah tengah -> kelopak mata menutup -> program berhenti.
+
+* INFO TAMBAHAN, UNTUK MENGETAHUI ROBOT ON/OFF
+  Ketika robot on terdapat led hijau kecil menyala, 
+  Ketika robot off terdapat red merah kecil meyala
+di Bawah badan robot
+
+* servo penggerak badan robot, bergerak mengikuti Gerakan mata robot ( mungkin penambahan pada pin ke 4 di pca9685)
+
+
+* pergerakan mata, bergerak dengan kecepatan seperti kekuatan gelombang sensor suara.
+
+
+
+
